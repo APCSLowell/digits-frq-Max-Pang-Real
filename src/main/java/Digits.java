@@ -16,7 +16,6 @@ public class Digits
 			digitList.add(0,n%10);
 			n = n/10;
 		}
-		return digitList;
 	}
 
 	public boolean isStrictlyIncreasing()
