@@ -10,7 +10,6 @@ public class Digits
 		if(num == 0){
 			digitList.add(0);
 	    	}
-	    	return digitList;
 		int n = num;
 		while(n > 0){
 			digitList.add(0,n%10);
